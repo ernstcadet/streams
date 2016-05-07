@@ -1,10 +1,11 @@
-//Users controller 
+// Users controller
 
 var Users = {
-      index: function(req, res){
-      res.render('index', { title: 'Express' });
-  }
-    
+
+    index: function(req, res) {
+        res.send('respond with a resource');
+    }
+
 };
 
 module.exports = Users;
